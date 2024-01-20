@@ -1,0 +1,407 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Service\\Karkathamizha.API.Service.csproj": {}
+  },
+  "projects": {
+    "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IRepository\\Karkathamizha.API.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IRepository\\Karkathamizha.API.IRepository.csproj",
+        "projectName": "Karkathamizha.API.IRepository",
+        "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IRepository\\Karkathamizha.API.IRepository.csproj",
+        "packagesPath": "C:\\Users\\Abubakkar\\.nuget\\packages\\",
+        "outputPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abubakkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IService\\Karkathamizha.API.IService.csproj": {
+                "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IService\\Karkathamizha.API.IService.csproj"
+              },
+              "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\Karkathamizha.API.Model.csproj": {
+                "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\Karkathamizha.API.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IService\\Karkathamizha.API.IService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IService\\Karkathamizha.API.IService.csproj",
+        "projectName": "Karkathamizha.API.IService",
+        "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IService\\Karkathamizha.API.IService.csproj",
+        "packagesPath": "C:\\Users\\Abubakkar\\.nuget\\packages\\",
+        "outputPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abubakkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\Karkathamizha.API.Model.csproj": {
+                "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\Karkathamizha.API.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\Karkathamizha.API.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\Karkathamizha.API.Model.csproj",
+        "projectName": "Karkathamizha.API.Model",
+        "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\Karkathamizha.API.Model.csproj",
+        "packagesPath": "C:\\Users\\Abubakkar\\.nuget\\packages\\",
+        "outputPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abubakkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Sowndar\\Karkathamizha.API\\KarkaThamizha.API.Repository\\KarkaThamizha.API.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sowndar\\Karkathamizha.API\\KarkaThamizha.API.Repository\\KarkaThamizha.API.Repository.csproj",
+        "projectName": "KarkaThamizha.API.Repository",
+        "projectPath": "D:\\Sowndar\\Karkathamizha.API\\KarkaThamizha.API.Repository\\KarkaThamizha.API.Repository.csproj",
+        "packagesPath": "C:\\Users\\Abubakkar\\.nuget\\packages\\",
+        "outputPath": "D:\\Sowndar\\Karkathamizha.API\\KarkaThamizha.API.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abubakkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IRepository\\Karkathamizha.API.IRepository.csproj": {
+                "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IRepository\\Karkathamizha.API.IRepository.csproj"
+              },
+              "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\Karkathamizha.API.Model.csproj": {
+                "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Model\\Karkathamizha.API.Model.csproj"
+              },
+              "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Util\\Karkathamizha.API.Util.csproj": {
+                "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Util\\Karkathamizha.API.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Service\\Karkathamizha.API.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Service\\Karkathamizha.API.Service.csproj",
+        "projectName": "Karkathamizha.API.Service",
+        "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Service\\Karkathamizha.API.Service.csproj",
+        "packagesPath": "C:\\Users\\Abubakkar\\.nuget\\packages\\",
+        "outputPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abubakkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IRepository\\Karkathamizha.API.IRepository.csproj": {
+                "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IRepository\\Karkathamizha.API.IRepository.csproj"
+              },
+              "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IService\\Karkathamizha.API.IService.csproj": {
+                "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.IService\\Karkathamizha.API.IService.csproj"
+              },
+              "D:\\Sowndar\\Karkathamizha.API\\KarkaThamizha.API.Repository\\KarkaThamizha.API.Repository.csproj": {
+                "projectPath": "D:\\Sowndar\\Karkathamizha.API\\KarkaThamizha.API.Repository\\KarkaThamizha.API.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Util\\Karkathamizha.API.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Util\\Karkathamizha.API.Util.csproj",
+        "projectName": "Karkathamizha.API.Util",
+        "projectPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Util\\Karkathamizha.API.Util.csproj",
+        "packagesPath": "C:\\Users\\Abubakkar\\.nuget\\packages\\",
+        "outputPath": "D:\\Sowndar\\Karkathamizha.API\\Karkathamizha.API.Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abubakkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

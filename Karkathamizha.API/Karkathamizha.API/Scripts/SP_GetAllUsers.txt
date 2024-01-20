@@ -1,0 +1,38 @@
+﻿CREATE procedure [dbo].[USP_GetAllUsers]      
+      
+AS      
+      
+BEGIN      
+      
+SET NOCOUNT ON      
+      
+SELECT U.UserId,Initial,U.NameInTamil,U.Name,      
+      
+MailID,Password,Mobile,U.CreatedDate,U.UserTypeID,UT.Name as UserType, P.ProfessionID,P.Name as Profession,      
+      
+SpecialNameID,Profile,Protocol, Website,Blog,BlogType,FaceBook,      
+      
+Twitter,Pinterest,YouTube,Instagram,Wikipedia, Address, format(DOB,'dd/MM/yyyy') as DOB,DOD,ImgProfile,ImgComments,      
+      
+Cy.CountryID,S.StateID,C.CityID,IsShownInMenu,IsMailSubscription,R.Reference from      
+      
+dbo.Users U      
+      
+LEFT OUTER JOIN dbo.Userdetails UD on U.UserID=UD.UserId     
+      
+LEFT OUTER JOIN dbo.Usertypes UT on U.UserTypeID=UT.UserTypeID      
+      
+LEFT OUTER JOIN dbo.Profession P on P.ProfessionID=U.ProfessionID      
+      
+LEFT OUTER JOIN dbo.City C on UD.CityID=C.CityID      
+      
+LEFT OUTER JOIN dbo.States S on S.StateID=C.StateID      
+      
+LEFT OUTER JOIN dbo.Country Cy on Cy.CountryID=S.CountryID      
+      
+LEFT OUTER JOIN dbo.UserReference R on R.UserId=U.UserId     
+      
+where U.RecStatus='A'      
+      
+End 
+GO

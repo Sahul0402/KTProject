@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Y7paX+Q9XsyqcT0LamAjNqVp51if5MncxC6VrwxIE2g=",
+  "Source": "Karkathamizha.API",
+  "BasePath": "_content/Karkathamizha.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Karkathamizha.API\\wwwroot",
+      "Source": "Karkathamizha.API",
+      "ContentRoot": "D:\\Sahul\\Project\\In-House\\Karka\\KarkaNool\\Karkathamizha.API\\Karkathamizha.API\\wwwroot\\",
+      "BasePath": "_content/Karkathamizha.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

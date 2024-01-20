@@ -1,0 +1,59 @@
+﻿create database ReactProj
+use ReactProj
+
+CREATE TABLE [dbo].[Users](
+	[UserId]		[INT] PRIMARY KEY IDENTITY(1,1) NOT NULL,
+	[Initial]		[NVARCHAR](10)	NULL,
+	[UserName]		[NVARCHAR](50)	NOT NULL,
+	[Name]			[VARCHAR](35)	NOT NULL,
+	[MailID]		[VARCHAR](35)	NULL,
+	[Password]		[VARCHAR](12)	NOT NULL,
+	[Mobile]		[VARCHAR](20)	NOT NULL,
+	[ProfessionID]	[TINYINT]		references dbo.Profession(ProfessionID) NOT NULL,
+	[UserTypeID]	[TINYINT]		references dbo.UserTypes(UserTypeID) not null,
+	[SpecialNameID] [TINYINT]		references dbo.SpecialName(SpecialNameID) NULL,
+	[LastActivity]	[DATETIME]		default getdate() not null, 
+	[CreatedDate]	[DATE]			default getdate() not null,
+	[ModifiedDate]	[DATE]			NULL,	
+	[RecStatus]		[CHAR](1)		default 'A'
+)
+
+Go
+
+CREATE TABLE [dbo].[UserDetails](
+	[UserDetailId]			[INT]			PRIMARY KEY IDENTITY(1,1) NOT NULL,
+	[UserId]				[INT]			references dbo.Users(UserID) NOT NULL,
+	[Profile]				[NVARCHAR](2000) NULL,
+	[Protocol]				[TINYINT] NULL,
+	[Website]				[VARCHAR](30) NULL,
+	[Blog]					[VARCHAR](20) NULL,
+	[BlogType]				[CHAR](1) NULL,
+	[FaceBook]				[VARCHAR](30) NULL,
+	[Twitter]				[VARCHAR](30) NULL,
+	[Pinterest]				[VARCHAR](25) NULL,
+	[YouTube]				[VARCHAR](32) NULL,
+	[Instagram]				[VARCHAR](15) NULL,
+	[Wikipedia]				[NVARCHAR](50) NULL,
+	[DOB]					[DATE] NULL,
+	[DOD]					[DATE] NULL,
+	[ImgProfile]			[VARCHAR](50) NULL,
+	[ImgComments]			[VARCHAR](50) NULL,
+	[Address]				[NVARCHAR](150) NULL,
+	[CityID]				[SMALLINT]	references dbo.City(CityID)null, 
+	[IsShownInMenu]			[BIT]		default 0 null,
+	[IsMailSubscription]	[BIT]		default 0 null,
+	[CreatedDate]			[DATETIME]	default getdate() not null,
+	[ModifiedDate]			[DATETIME]	default getdate() null,
+	[RecStatus]				[CHAR](1)	default 'A'
+)
+
+GO
+
+CREATE TABLE [dbo].[UserReference](
+	[UserReferenceId]	[INT] PRIMARY KEY IDENTITY(1,1) NOT NULL,
+	[UserId]			[INT] REFERENCES dbo.Users(UserID)NOT NULL,
+	[Reference]			[NVARCHAR](500) NULL,
+	[EnteredBy]			[TINYINT] REFERENCES dbo.AdminUser(AdminUserID)NOT NULL,
+	[CreatedDate]		[DATE] DEFAULT GETDATE() NOT NULL,
+	[RecStatus]			[CHAR](1) DEFAULT 'A'
+)

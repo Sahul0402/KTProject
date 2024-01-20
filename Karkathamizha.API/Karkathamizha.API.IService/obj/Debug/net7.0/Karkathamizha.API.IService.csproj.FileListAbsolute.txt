@@ -1,0 +1,15 @@
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\bin\Debug\net7.0\Karkathamizha.API.IService.deps.json
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\bin\Debug\net7.0\Karkathamizha.API.IService.dll
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\bin\Debug\net7.0\Karkathamizha.API.IService.pdb
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\bin\Debug\net7.0\Karkathamizha.API.Model.dll
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\bin\Debug\net7.0\Karkathamizha.API.Model.pdb
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\Karkathamizha.API.IService.csproj.AssemblyReference.cache
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\Karkathamizha.API.IService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\Karkathamizha.API.IService.AssemblyInfoInputs.cache
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\Karkathamizha.API.IService.AssemblyInfo.cs
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\Karkathamizha.API.IService.csproj.CoreCompileInputs.cache
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\Karkathamizha.API.IService.csproj.CopyComplete
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\Karkathamizha.API.IService.dll
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\refint\Karkathamizha.API.IService.dll
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\Karkathamizha.API.IService.pdb
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.IService\obj\Debug\net7.0\ref\Karkathamizha.API.IService.dll

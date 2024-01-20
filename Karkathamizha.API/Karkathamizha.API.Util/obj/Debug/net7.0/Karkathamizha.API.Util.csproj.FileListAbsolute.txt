@@ -1,0 +1,12 @@
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\bin\Debug\net7.0\Karkathamizha.API.Util.deps.json
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\bin\Debug\net7.0\Karkathamizha.API.Util.dll
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\bin\Debug\net7.0\Karkathamizha.API.Util.pdb
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\obj\Debug\net7.0\Karkathamizha.API.Util.csproj.AssemblyReference.cache
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\obj\Debug\net7.0\Karkathamizha.API.Util.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\obj\Debug\net7.0\Karkathamizha.API.Util.AssemblyInfoInputs.cache
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\obj\Debug\net7.0\Karkathamizha.API.Util.AssemblyInfo.cs
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\obj\Debug\net7.0\Karkathamizha.API.Util.csproj.CoreCompileInputs.cache
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\obj\Debug\net7.0\Karkathamizha.API.Util.dll
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\obj\Debug\net7.0\refint\Karkathamizha.API.Util.dll
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\obj\Debug\net7.0\Karkathamizha.API.Util.pdb
+D:\Sahul\Project\In-House\Karka\KarkaNool\Karkathamizha.API\Karkathamizha.API.Util\obj\Debug\net7.0\ref\Karkathamizha.API.Util.dll

@@ -1,0 +1,32 @@
+﻿	use ReactProj
+
+	CREATE TABLE [dbo].[Profession](
+		[ProfessionID] [TINYINT] PRIMARY KEY  IDENTITY(1,1) NOT NULL,
+		[Profession] [nvarchar](25) NOT NULL,
+		[NameInEng] [nvarchar](20) NOT NULL,
+		[RecStatus] char(1) default 'A'
+	)
+	Go
+
+	insert into dbo.Profession(Profession,NameInEng)values(N'ஆசிரியர் / பேராசிரியர்','Teacher/Professor')
+	insert into dbo.Profession(Profession,NameInEng)values(N'ஆய்வாளர்','Analyst')
+	insert into dbo.Profession(Profession,NameInEng)values(N'ஆலோசகர்','Consultant')
+	insert into dbo.Profession(Profession,NameInEng)values(N'உரையாசிரியர்','Speechwriter')
+	insert into dbo.Profession(Profession,NameInEng)values(N'எழுத்தாளர் / கவிஞர்','Writer / Poet')
+	insert into dbo.Profession(Profession,NameInEng)values(N'கணிப்பொறியாளர்','Software Engineer')
+	insert into dbo.Profession(Profession,NameInEng)values(N'மாணவர்','Student')
+	insert into dbo.Profession(Profession,NameInEng)values(N'வரலாற்று ஆய்வாளர்','Historian')
+
+	Go
+
+	select * from Profession
+
+	Go
+
+Create Procedure [dbo].[USP_GetAllProfession]
+as
+SET NOCOUNT ON
+BEGIN
+	select ProfessionID,Profession from dbo.Profession
+END
+GO
